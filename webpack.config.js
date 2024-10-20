@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html', // Шаблон HTML
+      template: './index.html', // Шаблон HTML
     }),
   ],
   devtool: 'source-map', // Поддержка source maps
